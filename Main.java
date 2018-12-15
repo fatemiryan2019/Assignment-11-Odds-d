@@ -3,7 +3,7 @@ import java.util.Random;
     public class Main {
 
         public static void main(String[] args) {
-            scen1(); scen2(); scen3(); scen4(); scen5();
+            scen1(); scen2(); scen3(); scen4(); 
         }
         public static int play, a, b, c, d, y, z;
 
