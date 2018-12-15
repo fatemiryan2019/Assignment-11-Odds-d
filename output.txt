@@ -23,6 +23,4 @@ Scenarios in which true: 11104
 Scenarios in which false: 88896
 When the occurance happens 0.11104
 
-The Fifth Scenario:
-Expected Result: 0.2778
 Process finished with exit code 0
