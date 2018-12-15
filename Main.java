@@ -96,23 +96,5 @@ import java.util.Random;
             System.out.println("Scenarios in which false: " + (100000-y));
             System.out.println("When the occurance happens " + (double)y/100000);
         }
-
-//      A 6-sided die with a different outcome for each die
-        public static void scen5() {
-
-            Random rand = new Random();
-            double expected = (6.0000/6.0000)*(5.0000/6.0000)*(4.0000/6.0000)*(3.0000/6.0000);
-            System.out.printf("\nThe Fifth Scenario:\nExpected Result: %.4f", expected);
-            y = 0;
-            z = 0;
-            for (int i = 1; i<100001; i++) {
-                a = rand.nextInt(6)+1;
-                b = rand.nextInt(6)+1;
-                c = rand.nextInt(6)+1;
-                d = rand.nextInt(6)+1;
-                if ((a != b && a != c && a != d) && (b != c && b != d) && (c != d)) {
-                    y++;
-                }
-            }
         }
     }
