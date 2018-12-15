@@ -1,0 +1,28 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54016:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/macuser/IdeaProjects/Assignment 11 Odds'd/out/production/Assignment 11 Odds'd" Main
+The First Scenario:
+Expected Result: 0.5000
+Scenarios in which true: 4981
+Scenarios in which false: 5017
+When the occurance happens 0.04981
+
+The Second Scenario:
+Expected Result: 0.7000
+Scenarios in which true: 70043
+Scenarios in which false: 29957
+When the occurance happens 0.70043
+
+The Third Scenario:
+Expected Result: 0.2500
+Scenarios in which true: 25036
+Scenarios in which false: 74964
+When the occurance happens 0.25036
+
+The Fourth Scenario:
+Expected Result: 0.1111
+Scenarios in which true: 11104
+Scenarios in which false: 88896
+When the occurance happens 0.11104
+
+The Fifth Scenario:
+Expected Result: 0.2778
+Process finished with exit code 0
